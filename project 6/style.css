@@ -1,0 +1,54 @@
+body {
+	font-family:'Opens Sans', 'Raleway';
+}
+
+nav a {
+	text-decoration:none;
+	font-family:'Open Sans';
+	font-size: 15px;
+	color:#333333;
+	padding: 25px 50px;
+	margin-top: 10px;
+	display: inline-block;
+	float: right;
+}
+
+nav a:hover {
+	background-color: #66ffcc;
+}
+
+nav a:active {
+	background-color: #66ffcc;
+}
+
+nav a:visited {
+	background-color: #66ffcc;
+}
+
+nav a:focus {
+	background-color: #66ffcc;
+}
+
+#logo {
+	float:left;
+	clear: both;
+	margin: 50px 50px 75px 150px;
+	display: inline-block;
+}
+
+#circle {
+	float: right;
+	margin: 50px 150px 75px 50px;
+	display: inline-block;
+}
+
+footer {
+	font-family: 'Open Sans';
+	font-size: 15px;
+	color:#333333;
+	text-align:center;
+	border-top:3px solid #66ffcc;
+	padding: 15px 0 15px 0;
+	margin-top: 150px;
+	clear:both;
+}

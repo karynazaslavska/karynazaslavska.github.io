@@ -1,0 +1,33 @@
+body {
+	background-image: url(https://googledrive.com/host/0B5djNjXSBl5PVmw5aGkzc3l6dG8);
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	margin-top:60px;
+	font-size:125px;
+	text-shadow: 4px 3px #7FFFD4;
+	color:#FFFFFF;
+}
+
+h2 {
+	margin-top:-90px;
+	font-size:40px;
+	text-shadow: 3px 1px #9999FF;
+    color:#FFFFFF;
+}
+
+p {
+	margin-top:40px;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	font-size:30px;
+	color:#000000;
+	text-shadow: 3px 1px #66CCCC;
+	background-color:#FFFFFF;
+	opacity:0.5;
+}

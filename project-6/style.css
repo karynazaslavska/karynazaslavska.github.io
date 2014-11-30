@@ -1,12 +1,35 @@
 body {
+	margin: 0;
 	font-family:'Opens Sans', 'Raleway';
+}
+
+h1 {
+	display: inline-block;
+	padding: 25px 50px;
+	margin-top: 10px;
+	float: left;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: 400;
+	color: #333333;
+	background-color: #66ffcc;
+	text-transform: uppercase;
+}
+
+h2 {
+font-family: 'Open Sans'; 
+font-size: 22px;
+text-transform: uppercase;
+color: #339966;
+font-weight: 300px;
+padding: 10px 10px 10px 0;
 }
 
 nav a {
 	text-decoration:none;
 	font-family:'Open Sans';
 	font-size: 15px;
-	color:#333333;
+	color: #333333;
 	padding: 25px 50px;
 	margin-top: 10px;
 	display: inline-block;
@@ -40,6 +63,35 @@ nav a:focus {
 	float: right;
 	margin: 50px 150px 75px 50px;
 	display: inline-block;
+}
+
+#green-logo {
+	padding: 50px 25px 100px 25px;
+	clear: both;
+	float: left;
+}
+
+#about-me {
+	width: 400px;
+	padding: 60px 25px 100px 100px;
+	text-align: justify;
+	float: left;
+}
+
+#about-work {
+	width: 400px;
+	padding: 60px 90px 100px 25px;
+	text-align: justify;
+    float: right;
+}
+
+#green-logo {
+
+}
+
+p {
+	font-family: 'Raleway';
+	font-size: 20px;
 }
 
 footer {

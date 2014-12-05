@@ -3,6 +3,11 @@ body {
 	font-family:'Opens Sans', 'Raleway';
 }
 
+.site-body {
+	width: 960px;
+	margin: auto;
+}
+
 h1 {
 	display: inline-block;
 	padding: 25px 50px;
@@ -17,12 +22,12 @@ h1 {
 }
 
 h2 {
-font-family: 'Open Sans'; 
-font-size: 18px;
-text-transform: uppercase;
-color: #339966;
-font-weight: 300px;
-padding: 10px 10px 10px 0;
+	font-family: 'Open Sans'; 
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #339966;
+	font-weight: 300px;
+	padding: 10px 10px 10px 0;
 }
 
 h3 {
@@ -39,7 +44,6 @@ nav a {
 	color: #333333;
 	padding: 25px 50px;
 	margin-top: 10px;
-	display: inline-block;
 	float: right;
 }
 
@@ -62,34 +66,32 @@ nav a:focus {
 #logo {
 	float:left;
 	clear: both;
-	margin: 50px 50px 75px 150px;
-	display: inline-block;
+	padding: 50px 0 75px 0;
 }
 
 #circle {
 	float: right;
-	margin: 50px 150px 75px 50px;
-	display: inline-block;
+	padding: 50px 0 75px 0;
 }
 
 #green-logo {
-	padding: 50px 25px 100px 25px;
+	padding: 100px 50px 100px 0;
 	clear: both;
 	float: left;
 }
 
 #about-me {
-	width: 400px;
-	padding: 60px 25px 100px 100px;
+	width: 350px;
+	padding: 100px 25px 100px 25px;
 	text-align: justify;
 	float: left;
 }
 
 #about-work {
-	width: 400px;
-	padding: 60px 90px 100px 25px;
+	width: 350px;
+	padding: 100px 0 100px 25px;
 	text-align: justify;
-    float: right;
+	float: right;
 }
 
 
@@ -105,17 +107,19 @@ a {
 }
 
 #contact {
-	padding: 50px 50px 100px 50px;
+	width: 500px;
+	padding:100px 0 100px 0;
 	float: right;
 }
+
 
 footer {
 	font-family: 'Open Sans';
 	font-size: 15px;
 	color:#333333;
-	text-align:center;
+	text-align: center;
 	border-top:3px solid #66ffcc;
 	padding: 15px 0 15px 0;
-	margin-top: 150px;
-	clear:both;
+	margin: auto;
+	clear: both;
 }

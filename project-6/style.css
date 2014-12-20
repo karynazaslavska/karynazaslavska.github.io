@@ -1,10 +1,10 @@
 body {
 	margin: 0;
-	font-family:'Opens Sans', 'Raleway';
+	font-family:'Opens Sans', Sans-serif;
 }
 
 .site-body {
-	width: 960px;
+	width: 90%;
 	margin: auto;
 }
 
@@ -13,7 +13,6 @@ h1 {
 	padding: 25px 50px;
 	margin-top: 10px;
 	float: left;
-	font-family: 'Open Sans';
 	font-size: 20px;
 	font-weight: 400;
 	color: #333333;
@@ -21,8 +20,7 @@ h1 {
 	text-transform: uppercase;
 }
 
-h2 {
-	font-family: 'Open Sans'; 
+h2 { 
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #339966;
@@ -39,11 +37,10 @@ h3 {
 
 nav a {
 	text-decoration:none;
-	font-family:'Open Sans';
 	font-size: 15px;
 	color: #333333;
-	padding: 25px 50px;
-	margin-top: 10px;
+	padding: 2% 4%;
+	margin-top: 1%;
 	float: right;
 }
 
@@ -51,45 +48,36 @@ nav a:hover {
 	background-color: #66ffcc;
 }
 
-nav a:active {
-	background-color: #66ffcc;
-}
-
-nav a:visited {
-	background-color: #66ffcc;
-}
-
-nav a:focus {
-	background-color: #66ffcc;
-}
-
 #logo {
+	width: 35%;
 	float:left;
 	clear: both;
-	padding: 50px 0 75px 0;
+	padding: 10% 5% 15% 5%;
 }
 
 #circle {
+	width: 35%;
 	float: right;
-	padding: 50px 0 75px 0;
+	padding: 10% 5% 15% 5%;
 }
 
 #green-logo {
-	padding: 100px 50px 100px 0;
+	width: 10%;
+	padding: 10% 4% 10% 0;
 	clear: both;
 	float: left;
 }
 
 #about-me {
-	width: 350px;
-	padding: 100px 25px 100px 25px;
+	width: 35%;
+	padding: 10% 0 10% 2%;
 	text-align: justify;
 	float: left;
 }
 
 #about-work {
-	width: 350px;
-	padding: 100px 0 100px 25px;
+	width: 35%;
+	padding: 10% 2% 10% 0;
 	text-align: justify;
 	float: right;
 }
@@ -107,19 +95,18 @@ a {
 }
 
 #contact {
-	width: 500px;
-	padding:100px 0 100px 0;
+	width: 40%;
+	padding: 10% 0 10% 50%;
 	float: right;
 }
 
 
 footer {
-	font-family: 'Open Sans';
 	font-size: 15px;
 	color:#333333;
 	text-align: center;
-	border-top:3px solid #66ffcc;
-	padding: 15px 0 15px 0;
+	border-top: 3px solid #66ffcc;
+	padding: 2% 0 2% 0;
 	margin: auto;
 	clear: both;
 }

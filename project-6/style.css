@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family:'Opens Sans', Sans-serif;
+	font-size: 15px;
 }
 
 .site-body {
@@ -37,7 +38,7 @@ h3 {
 
 nav a {
 	text-decoration:none;
-	font-size: 0.938em;
+	font-size: 1em;
 	color: #333333;
 	padding: 2% 4%;
 	margin-top: 1%;
@@ -85,7 +86,7 @@ nav a:hover {
 
 p {
 	font-family: 'Raleway';
-	font-size: 0.938em;
+	font-size: 1em;
 	line-height: 200%;
 }
 
@@ -102,7 +103,7 @@ a {
 
 
 footer {
-	font-size: 0.938em;
+	font-size: 1em;
 	color:#333333;
 	text-align: center;
 	border-top: 3px solid #66ffcc;

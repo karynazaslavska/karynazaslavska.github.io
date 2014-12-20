@@ -10,34 +10,34 @@ body {
 
 h1 {
 	display: inline-block;
-	padding: 25px 50px;
-	margin-top: 10px;
+	padding: 2% 4%;
+	margin-top: 1%;
 	float: left;
-	font-size: 20px;
-	font-weight: 400;
+	font-size: 1.250em;
+	font-weight: 300;
 	color: #333333;
 	background-color: #66ffcc;
 	text-transform: uppercase;
 }
 
 h2 { 
-	font-size: 18px;
+	font-size: 1.125em;
 	text-transform: uppercase;
 	color: #339966;
-	font-weight: 300px;
-	padding: 10px 10px 10px 0;
+	font-weight: 250;
+	padding: 1% 1% 1% 0;
 }
 
 h3 {
-	padding: 15px 0 15px 0;
+	padding: 1.5% 0 1.5% 0;
 	font-family: 'Raleway';
 	color: #333333;
-	font-size: 18px;
+	font-size: 1.063em;
 }
 
 nav a {
 	text-decoration:none;
-	font-size: 15px;
+	font-size: 0.938em;
 	color: #333333;
 	padding: 2% 4%;
 	margin-top: 1%;
@@ -85,8 +85,8 @@ nav a:hover {
 
 p {
 	font-family: 'Raleway';
-	font-size: 15px;
-	line-height: 30px;
+	font-size: 0.938em;
+	line-height: 200%;
 }
 
 a {
@@ -102,7 +102,7 @@ a {
 
 
 footer {
-	font-size: 15px;
+	font-size: 0.938em;
 	color:#333333;
 	text-align: center;
 	border-top: 3px solid #66ffcc;

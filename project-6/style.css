@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family:'Opens Sans', Sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .site-body {
@@ -14,18 +14,18 @@ h1 {
 	padding: 2% 4%;
 	margin-top: 1%;
 	float: left;
-	font-size: 1.250em;
-	font-weight: 300;
-	color: #333333;
-	background-color: #66ffcc;
+	font-size: 1.3em;
+	font-weight: 500;
+	color: #66ffcc;
 	text-transform: uppercase;
 }
 
 h2 { 
-	font-size: 1.125em;
+	font-size: 1.150em;
+	font-family: 'Raleway';
 	text-transform: uppercase;
-	color: #339966;
-	font-weight: 250;
+	color: #333333;
+	font-weight: 300;
 	padding: 1% 1% 1% 0;
 }
 
@@ -33,7 +33,11 @@ h3 {
 	padding: 1.5% 0 1.5% 0;
 	font-family: 'Raleway';
 	color: #333333;
-	font-size: 1.063em;
+	font-size: 1.1em;
+}
+
+nav {
+	width: 100%;
 }
 
 nav a {
@@ -50,20 +54,20 @@ nav a:hover {
 }
 
 #logo {
-	width: 35%;
-	float:left;
+	width: 30%;
+	float: left;
 	clear: both;
-	padding: 10% 5% 15% 5%;
+	padding: 10% 0 15% 15%;
 }
 
 #circle {
-	width: 35%;
+	width: 30%;
 	float: right;
-	padding: 10% 5% 15% 5%;
+	padding: 10% 15% 15% 0;
 }
 
 #green-logo {
-	width: 10%;
+	width: 12%;
 	padding: 10% 4% 10% 0;
 	clear: both;
 	float: left;
@@ -83,6 +87,19 @@ nav a:hover {
 	float: right;
 }
 
+.placeholder {
+	clear: both;
+	width: 50%;
+	padding: 10% 0 10% 0;
+	float: left;
+}
+
+.description {
+	width: 50%;
+	text-align: justify;
+	padding: 10% 0 10% 0;
+	float: right;
+}
 
 p {
 	font-family: 'Raleway';
@@ -92,7 +109,7 @@ p {
 
 a {
 	text-decoration: none;
-	color: #339966;
+	color: #66ffcc;
 }
 
 #contact {
@@ -110,4 +127,93 @@ footer {
 	padding: 2% 0 2% 0;
 	margin: auto;
 	clear: both;
+}
+
+@media (max-width: 400px) {
+	nav {
+		float: none;
+		font-size: 1.3em;
+	}
+
+	a {
+		display: block;
+		text-align: center;
+		width: 100%;
+		background-color: #66ffcc;
+	}
+
+	.site-body {
+		width: 100%;
+		margin: 0;
+	}
+
+	#logo {
+		display: block;
+		width: 250px;
+		clear: both;
+		float: none;
+	}
+
+	#circle {
+		display: block;
+		width: 250px;
+		clear: both;
+		float: none;
+	}
+
+	footer {
+		width: 100%;
+		background-color: #66ffcc;
+		margin-top: 10%;
+	}
+
+	h1 {
+		display: block;
+		font-size: 1.1em;
+		text-align: center;
+		float: none;
+	}
+
+	h2 {
+		display: block;
+		font-size: 0.9em;
+		padding-top: 5%;
+	}
+	#green-logo{
+		display: none;
+	}
+
+	#about-me {
+		display: block;
+		width: 90%;
+		float: none;
+		text-align: center;
+	}
+
+	#about-work {
+		display: block;
+		width: 90%;
+		float: none;
+		text-align: center;
+	}
+
+	#contact {
+		float:none;
+		display: block;
+		width: 50%;
+		padding: 5%;
+	}
+
+	.placeholder {
+		width: 50%;
+	}
+
+	p {
+		font-size: 0.8em;
+	}
+
+	a {
+		text-decoration: none;
+		color: #333333;
+	}
 }
